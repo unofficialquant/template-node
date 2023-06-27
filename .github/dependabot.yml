@@ -1,0 +1,16 @@
+---
+version: 2
+
+updates:
+  - package-ecosystem: docker
+    commit-message:
+      prefix: "build(docker): "
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    commit-message:
+      prefix: "ci(github-actions): "
+    directory: /
+    schedule:
+      interval: weekly
