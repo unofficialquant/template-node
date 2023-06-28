@@ -18,4 +18,4 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         with:
           package-name: release-please-action
-          release-type: simple
+          release-type: node
