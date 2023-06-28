@@ -10,8 +10,8 @@ yarn lint
 yarn lint:editorconfig
 yarn lint:jscpd
 
-# Build
-yarn build
-
 # Test
 yarn test
+
+# Build
+yarn build
