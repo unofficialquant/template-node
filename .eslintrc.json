@@ -68,6 +68,13 @@
         "allowModules": ["supertest"]
       }
     ],
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "cjs-export" },
+      { "blankLine": "always", "prev": "*", "next": "class" },
+      { "blankLine": "always", "prev": "*", "next": "export" },
+      { "blankLine": "always", "prev": "*", "next": "function" }
+    ],
     "sort-imports": [
       "error",
       {
