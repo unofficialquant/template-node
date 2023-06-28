@@ -46,7 +46,7 @@ jobs:
           yarn lint
           yarn lint:editorconfig
           yarn lint:jscpd
-      - name: Build
-        run: yarn build
       - name: Test
         run: yarn test
+      - name: Build
+        run: yarn build
