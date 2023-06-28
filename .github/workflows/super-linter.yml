@@ -30,5 +30,8 @@ jobs:
         uses: super-linter/super-linter@v5
         env:
           DEFAULT_BRANCH: main
+          FILTER_REGEX_EXCLUDE: .husky
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TYPESCRIPT_DEFAULT_STYLE: prettier
+          TYPESCRIPT_STANDARD_TSCONFIG_FILE: tsconfig.eslint.json
           VALIDATE_ALL_CODEBASE: false
