@@ -14,3 +14,9 @@ updates:
     directory: /
     schedule:
       interval: weekly
+  - package-ecosystem: npm
+    commit-message:
+      prefix: "build(deps): "
+    directory: /
+    schedule:
+      interval: daily
