@@ -2,7 +2,7 @@
   "name": "template-node",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "yarn@3.6.0",
+  "packageManager": "yarn@3.6.1",
   "type": "module",
   "engines": {
     "node": ">=16.20.0"
