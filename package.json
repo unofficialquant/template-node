@@ -27,7 +27,7 @@
     "@eslint-community/eslint-plugin-eslint-comments": "^3.2.1",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.1",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^5.61.0",
     "editorconfig-checker": "^5.1.1",
     "eslint": "^8.44.0",
